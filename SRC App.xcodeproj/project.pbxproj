@@ -19,6 +19,44 @@
 		6463AA641937FD35002D2314 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6463AA621937FD35002D2314 /* MainStoryboard_iPhone.storyboard */; };
 		6463AA671937FD35002D2314 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6463AA651937FD35002D2314 /* MainStoryboard_iPad.storyboard */; };
 		6463AA6A1937FD35002D2314 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6463AA691937FD35002D2314 /* ViewController.m */; };
+		6463AA721937FD75002D2314 /* imaagen presentacion.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6463AA711937FD75002D2314 /* imaagen presentacion.PNG */; };
+		6463AA741938027D002D2314 /* inicio.png in Resources */ = {isa = PBXBuildFile; fileRef = 6463AA731938027D002D2314 /* inicio.png */; };
+		6463AA7619380440002D2314 /* fondoGris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6463AA7519380440002D2314 /* fondoGris.jpg */; };
+		6463AA78193807C9002D2314 /* redblackgradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6463AA77193807C9002D2314 /* redblackgradient.jpg */; };
+		6463AA7A193819C6002D2314 /* linear_bb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6463AA79193819C6002D2314 /* linear_bb.jpg */; };
+		841074EB1939225C006B195A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841074EA1939225C006B195A /* LoginViewController.m */; };
+		841074FB193928F6006B195A /* PrincipalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841074FA193928F6006B195A /* PrincipalViewController.m */; };
+		8410750019392AB6006B195A /* WellsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841074FF19392AB6006B195A /* WellsViewController.m */; };
+		8410750419392C6F006B195A /* InfowellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8410750319392C6F006B195A /* InfowellViewController.m */; };
+		84454304193F68EB00312320 /* graygradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 84454303193F68EB00312320 /* graygradient.png */; };
+		84454306193F6BED00312320 /* degradenegro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84454305193F6BED00312320 /* degradenegro.jpg */; };
+		84454308193F6D0E00312320 /* gris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84454307193F6D0E00312320 /* gris.jpg */; };
+		845079591938C4990006B873 /* Iniciofinal.png in Resources */ = {isa = PBXBuildFile; fileRef = 845079581938C4990006B873 /* Iniciofinal.png */; };
+		8450795B1938D11D0006B873 /* INICIO-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8450795A1938D11D0006B873 /* INICIO-3.png */; };
+		8450795D1938E1CD0006B873 /* CRYSTALLINE.png in Resources */ = {isa = PBXBuildFile; fileRef = 8450795C1938E1CD0006B873 /* CRYSTALLINE.png */; };
+		8450795F1938E44D0006B873 /* Boundstone.png in Resources */ = {isa = PBXBuildFile; fileRef = 8450795E1938E44D0006B873 /* Boundstone.png */; };
+		845079611938ED660006B873 /* Grainstone.png in Resources */ = {isa = PBXBuildFile; fileRef = 845079601938ED660006B873 /* Grainstone.png */; };
+		845079631938F08B0006B873 /* Packstone.png in Resources */ = {isa = PBXBuildFile; fileRef = 845079621938F08B0006B873 /* Packstone.png */; };
+		845079651938F3130006B873 /* Wackestone.png in Resources */ = {isa = PBXBuildFile; fileRef = 845079641938F3130006B873 /* Wackestone.png */; };
+		8450796A193901DD0006B873 /* Mudstone.png in Resources */ = {isa = PBXBuildFile; fileRef = 84507969193901DD0006B873 /* Mudstone.png */; };
+		84759199193A131700814456 /* namerockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84759198193A131700814456 /* namerockViewController.m */; };
+		8475919C193A19B000814456 /* datacarnonateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475919B193A19B000814456 /* datacarnonateViewController.m */; };
+		847591A3193A1C3E00814456 /* crystallinecarbonateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847591A2193A1C3E00814456 /* crystallinecarbonateViewController.m */; };
+		847591A6193A1F5700814456 /* carbonatedepositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847591A5193A1F5700814456 /* carbonatedepositionViewController.m */; };
+		847591AB193A21C100814456 /* carbonatesupportedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847591AA193A21C100814456 /* carbonatesupportedViewController.m */; };
+		847591AE193A23D800814456 /* carbonategrainandmudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847591AD193A23D800814456 /* carbonategrainandmudViewController.m */; };
+		847591B2193A250400814456 /* grainstoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847591B1193A250400814456 /* grainstoneViewController.m */; };
+		847591B6193A264000814456 /* packstoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847591B5193A264000814456 /* packstoneViewController.m */; };
+		847591BA193A273900814456 /* carbonatelessandmoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847591B9193A273900814456 /* carbonatelessandmoreViewController.m */; };
+		847591BE193A29BF00814456 /* mudstoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847591BD193A29BF00814456 /* mudstoneViewController.m */; };
+		847591C2193A2BC100814456 /* wackestoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847591C1193A2BC100814456 /* wackestoneViewController.m */; };
+		847591C6193A2CD200814456 /* boundstoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847591C5193A2CD200814456 /* boundstoneViewController.m */; };
+		847591CA193A38AB00814456 /* LithologyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847591C9193A38AB00814456 /* LithologyViewController.m */; };
+		847591CE193A395800814456 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847591CD193A395800814456 /* DataViewController.m */; };
+		847591D1193A3F5B00814456 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 847591D0193A3F5B00814456 /* libsqlite3.dylib */; };
+		84A1B0A1193F980D00F1CEF7 /* SRCAPp.sql in Resources */ = {isa = PBXBuildFile; fileRef = 84A1B0A0193F980D00F1CEF7 /* SRCAPp.sql */; };
+		84AE7BE5193A0C900036CEF3 /* tiporocaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE7BE4193A0C900036CEF3 /* tiporocaViewController.m */; };
+		84AE7BE9193A0D900036CEF3 /* infoterrigenousViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE7BE8193A0D900036CEF3 /* infoterrigenousViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +77,64 @@
 		6463AA661937FD35002D2314 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		6463AA681937FD35002D2314 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6463AA691937FD35002D2314 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6463AA711937FD75002D2314 /* imaagen presentacion.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imaagen presentacion.PNG"; sourceTree = "<group>"; };
+		6463AA731938027D002D2314 /* inicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inicio.png; sourceTree = "<group>"; };
+		6463AA7519380440002D2314 /* fondoGris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondoGris.jpg; sourceTree = "<group>"; };
+		6463AA77193807C9002D2314 /* redblackgradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redblackgradient.jpg; sourceTree = "<group>"; };
+		6463AA79193819C6002D2314 /* linear_bb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = linear_bb.jpg; sourceTree = "<group>"; };
+		841074E91939225C006B195A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		841074EA1939225C006B195A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		841074F9193928F6006B195A /* PrincipalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincipalViewController.h; sourceTree = "<group>"; };
+		841074FA193928F6006B195A /* PrincipalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrincipalViewController.m; sourceTree = "<group>"; };
+		841074FE19392AB6006B195A /* WellsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WellsViewController.h; sourceTree = "<group>"; };
+		841074FF19392AB6006B195A /* WellsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WellsViewController.m; sourceTree = "<group>"; };
+		8410750219392C6F006B195A /* InfowellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfowellViewController.h; sourceTree = "<group>"; };
+		8410750319392C6F006B195A /* InfowellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfowellViewController.m; sourceTree = "<group>"; };
+		84454303193F68EB00312320 /* graygradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = graygradient.png; path = "SRC App/graygradient.png"; sourceTree = "<group>"; };
+		84454305193F6BED00312320 /* degradenegro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = degradenegro.jpg; sourceTree = "<group>"; };
+		84454307193F6D0E00312320 /* gris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gris.jpg; sourceTree = "<group>"; };
+		845079581938C4990006B873 /* Iniciofinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Iniciofinal.png; sourceTree = "<group>"; };
+		8450795A1938D11D0006B873 /* INICIO-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "INICIO-3.png"; sourceTree = "<group>"; };
+		8450795C1938E1CD0006B873 /* CRYSTALLINE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CRYSTALLINE.png; sourceTree = "<group>"; };
+		8450795E1938E44D0006B873 /* Boundstone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Boundstone.png; sourceTree = "<group>"; };
+		845079601938ED660006B873 /* Grainstone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grainstone.png; sourceTree = "<group>"; };
+		845079621938F08B0006B873 /* Packstone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Packstone.png; sourceTree = "<group>"; };
+		845079641938F3130006B873 /* Wackestone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wackestone.png; sourceTree = "<group>"; };
+		84507969193901DD0006B873 /* Mudstone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mudstone.png; sourceTree = "<group>"; };
+		84759197193A131700814456 /* namerockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = namerockViewController.h; sourceTree = "<group>"; };
+		84759198193A131700814456 /* namerockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = namerockViewController.m; sourceTree = "<group>"; };
+		8475919A193A19B000814456 /* datacarnonateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datacarnonateViewController.h; sourceTree = "<group>"; };
+		8475919B193A19B000814456 /* datacarnonateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = datacarnonateViewController.m; sourceTree = "<group>"; };
+		847591A1193A1C3E00814456 /* crystallinecarbonateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crystallinecarbonateViewController.h; sourceTree = "<group>"; };
+		847591A2193A1C3E00814456 /* crystallinecarbonateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = crystallinecarbonateViewController.m; sourceTree = "<group>"; };
+		847591A4193A1F5700814456 /* carbonatedepositionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carbonatedepositionViewController.h; sourceTree = "<group>"; };
+		847591A5193A1F5700814456 /* carbonatedepositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = carbonatedepositionViewController.m; sourceTree = "<group>"; };
+		847591A9193A21C100814456 /* carbonatesupportedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carbonatesupportedViewController.h; sourceTree = "<group>"; };
+		847591AA193A21C100814456 /* carbonatesupportedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = carbonatesupportedViewController.m; sourceTree = "<group>"; };
+		847591AC193A23D800814456 /* carbonategrainandmudViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carbonategrainandmudViewController.h; sourceTree = "<group>"; };
+		847591AD193A23D800814456 /* carbonategrainandmudViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = carbonategrainandmudViewController.m; sourceTree = "<group>"; };
+		847591B0193A250400814456 /* grainstoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grainstoneViewController.h; sourceTree = "<group>"; };
+		847591B1193A250400814456 /* grainstoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = grainstoneViewController.m; sourceTree = "<group>"; };
+		847591B4193A264000814456 /* packstoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = packstoneViewController.h; sourceTree = "<group>"; };
+		847591B5193A264000814456 /* packstoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = packstoneViewController.m; sourceTree = "<group>"; };
+		847591B8193A273900814456 /* carbonatelessandmoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carbonatelessandmoreViewController.h; sourceTree = "<group>"; };
+		847591B9193A273900814456 /* carbonatelessandmoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = carbonatelessandmoreViewController.m; sourceTree = "<group>"; };
+		847591BC193A29BF00814456 /* mudstoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mudstoneViewController.h; sourceTree = "<group>"; };
+		847591BD193A29BF00814456 /* mudstoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mudstoneViewController.m; sourceTree = "<group>"; };
+		847591C0193A2BC100814456 /* wackestoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wackestoneViewController.h; sourceTree = "<group>"; };
+		847591C1193A2BC100814456 /* wackestoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wackestoneViewController.m; sourceTree = "<group>"; };
+		847591C4193A2CD200814456 /* boundstoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = boundstoneViewController.h; sourceTree = "<group>"; };
+		847591C5193A2CD200814456 /* boundstoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = boundstoneViewController.m; sourceTree = "<group>"; };
+		847591C8193A38AB00814456 /* LithologyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LithologyViewController.h; sourceTree = "<group>"; };
+		847591C9193A38AB00814456 /* LithologyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LithologyViewController.m; sourceTree = "<group>"; };
+		847591CC193A395800814456 /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		847591CD193A395800814456 /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		847591D0193A3F5B00814456 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		84A1B0A0193F980D00F1CEF7 /* SRCAPp.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = SRCAPp.sql; sourceTree = "<group>"; };
+		84AE7BE3193A0C900036CEF3 /* tiporocaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiporocaViewController.h; sourceTree = "<group>"; };
+		84AE7BE4193A0C900036CEF3 /* tiporocaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tiporocaViewController.m; sourceTree = "<group>"; };
+		84AE7BE7193A0D900036CEF3 /* infoterrigenousViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoterrigenousViewController.h; sourceTree = "<group>"; };
+		84AE7BE8193A0D900036CEF3 /* infoterrigenousViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoterrigenousViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847591D1193A3F5B00814456 /* libsqlite3.dylib in Frameworks */,
 				6463AA4B1937FD35002D2314 /* UIKit.framework in Frameworks */,
 				6463AA4D1937FD35002D2314 /* Foundation.framework in Frameworks */,
 				6463AA4F1937FD35002D2314 /* CoreGraphics.framework in Frameworks */,
@@ -59,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				6463AA501937FD35002D2314 /* SRC App */,
+				6463AA701937FD46002D2314 /* Sources */,
 				6463AA491937FD35002D2314 /* Frameworks */,
 				6463AA481937FD35002D2314 /* Products */,
 			);
@@ -75,6 +173,7 @@
 		6463AA491937FD35002D2314 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				847591D0193A3F5B00814456 /* libsqlite3.dylib */,
 				6463AA4A1937FD35002D2314 /* UIKit.framework */,
 				6463AA4C1937FD35002D2314 /* Foundation.framework */,
 				6463AA4E1937FD35002D2314 /* CoreGraphics.framework */,
@@ -85,6 +184,26 @@
 		6463AA501937FD35002D2314 /* SRC App */ = {
 			isa = PBXGroup;
 			children = (
+				847591CF193A396400814456 /* Data */,
+				847591CB193A38B700814456 /* Lithology */,
+				847591C7193A2CDD00814456 /* boundstone */,
+				847591C3193A2BC800814456 /* wackestone */,
+				847591BF193A29FB00814456 /* carbonateMudstone */,
+				847591BB193A273F00814456 /* carbonate less and more graind */,
+				847591B7193A264700814456 /* packstone */,
+				847591B3193A250C00814456 /* grainstone */,
+				847591AF193A23E000814456 /* carbonate.grain.and.mud */,
+				847591A8193A218100814456 /* carbonate supported */,
+				847591A7193A1F6800814456 /* carbonatedeposition */,
+				847591A0193A1B9B00814456 /* crystallinecarbonate */,
+				84AE7BF2193A10350036CEF3 /* datos carbonate */,
+				84AE7BEE193A0FE10036CEF3 /* NameRockTerrigenous */,
+				84AE7BEA193A0DE20036CEF3 /* infoterrigenous */,
+				84AE7BE6193A0CA70036CEF3 /* tiporoca */,
+				8410750519392CD9006B195A /* Infowell */,
+				8410750119392ACD006B195A /* wells */,
+				841074FD193929AB006B195A /* Login */,
+				841074FC1939298F006B195A /* Principal */,
 				6463AA591937FD35002D2314 /* AppDelegate.h */,
 				6463AA5A1937FD35002D2314 /* AppDelegate.m */,
 				6463AA621937FD35002D2314 /* MainStoryboard_iPhone.storyboard */,
@@ -99,6 +218,7 @@
 		6463AA511937FD35002D2314 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84A1B0A0193F980D00F1CEF7 /* SRCAPp.sql */,
 				6463AA521937FD35002D2314 /* SRC App-Info.plist */,
 				6463AA531937FD35002D2314 /* InfoPlist.strings */,
 				6463AA561937FD35002D2314 /* main.m */,
@@ -106,8 +226,211 @@
 				6463AA5C1937FD35002D2314 /* Default.png */,
 				6463AA5E1937FD35002D2314 /* Default@2x.png */,
 				6463AA601937FD35002D2314 /* Default-568h@2x.png */,
+				84507969193901DD0006B873 /* Mudstone.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6463AA701937FD46002D2314 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				84454307193F6D0E00312320 /* gris.jpg */,
+				84454305193F6BED00312320 /* degradenegro.jpg */,
+				84454303193F68EB00312320 /* graygradient.png */,
+				845079641938F3130006B873 /* Wackestone.png */,
+				845079621938F08B0006B873 /* Packstone.png */,
+				845079601938ED660006B873 /* Grainstone.png */,
+				8450795E1938E44D0006B873 /* Boundstone.png */,
+				8450795C1938E1CD0006B873 /* CRYSTALLINE.png */,
+				8450795A1938D11D0006B873 /* INICIO-3.png */,
+				845079581938C4990006B873 /* Iniciofinal.png */,
+				6463AA79193819C6002D2314 /* linear_bb.jpg */,
+				6463AA77193807C9002D2314 /* redblackgradient.jpg */,
+				6463AA7519380440002D2314 /* fondoGris.jpg */,
+				6463AA731938027D002D2314 /* inicio.png */,
+				6463AA711937FD75002D2314 /* imaagen presentacion.PNG */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		841074FC1939298F006B195A /* Principal */ = {
+			isa = PBXGroup;
+			children = (
+				841074F9193928F6006B195A /* PrincipalViewController.h */,
+				841074FA193928F6006B195A /* PrincipalViewController.m */,
+			);
+			name = Principal;
+			sourceTree = "<group>";
+		};
+		841074FD193929AB006B195A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				841074E91939225C006B195A /* LoginViewController.h */,
+				841074EA1939225C006B195A /* LoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		8410750119392ACD006B195A /* wells */ = {
+			isa = PBXGroup;
+			children = (
+				841074FE19392AB6006B195A /* WellsViewController.h */,
+				841074FF19392AB6006B195A /* WellsViewController.m */,
+			);
+			name = wells;
+			sourceTree = "<group>";
+		};
+		8410750519392CD9006B195A /* Infowell */ = {
+			isa = PBXGroup;
+			children = (
+				8410750219392C6F006B195A /* InfowellViewController.h */,
+				8410750319392C6F006B195A /* InfowellViewController.m */,
+			);
+			name = Infowell;
+			sourceTree = "<group>";
+		};
+		847591A0193A1B9B00814456 /* crystallinecarbonate */ = {
+			isa = PBXGroup;
+			children = (
+				847591A1193A1C3E00814456 /* crystallinecarbonateViewController.h */,
+				847591A2193A1C3E00814456 /* crystallinecarbonateViewController.m */,
+			);
+			name = crystallinecarbonate;
+			sourceTree = "<group>";
+		};
+		847591A7193A1F6800814456 /* carbonatedeposition */ = {
+			isa = PBXGroup;
+			children = (
+				847591A4193A1F5700814456 /* carbonatedepositionViewController.h */,
+				847591A5193A1F5700814456 /* carbonatedepositionViewController.m */,
+			);
+			name = carbonatedeposition;
+			sourceTree = "<group>";
+		};
+		847591A8193A218100814456 /* carbonate supported */ = {
+			isa = PBXGroup;
+			children = (
+				847591A9193A21C100814456 /* carbonatesupportedViewController.h */,
+				847591AA193A21C100814456 /* carbonatesupportedViewController.m */,
+			);
+			name = "carbonate supported";
+			sourceTree = "<group>";
+		};
+		847591AF193A23E000814456 /* carbonate.grain.and.mud */ = {
+			isa = PBXGroup;
+			children = (
+				847591AC193A23D800814456 /* carbonategrainandmudViewController.h */,
+				847591AD193A23D800814456 /* carbonategrainandmudViewController.m */,
+			);
+			name = carbonate.grain.and.mud;
+			sourceTree = "<group>";
+		};
+		847591B3193A250C00814456 /* grainstone */ = {
+			isa = PBXGroup;
+			children = (
+				847591B0193A250400814456 /* grainstoneViewController.h */,
+				847591B1193A250400814456 /* grainstoneViewController.m */,
+			);
+			name = grainstone;
+			sourceTree = "<group>";
+		};
+		847591B7193A264700814456 /* packstone */ = {
+			isa = PBXGroup;
+			children = (
+				847591B4193A264000814456 /* packstoneViewController.h */,
+				847591B5193A264000814456 /* packstoneViewController.m */,
+			);
+			name = packstone;
+			sourceTree = "<group>";
+		};
+		847591BB193A273F00814456 /* carbonate less and more graind */ = {
+			isa = PBXGroup;
+			children = (
+				847591B8193A273900814456 /* carbonatelessandmoreViewController.h */,
+				847591B9193A273900814456 /* carbonatelessandmoreViewController.m */,
+			);
+			name = "carbonate less and more graind";
+			sourceTree = "<group>";
+		};
+		847591BF193A29FB00814456 /* carbonateMudstone */ = {
+			isa = PBXGroup;
+			children = (
+				847591BC193A29BF00814456 /* mudstoneViewController.h */,
+				847591BD193A29BF00814456 /* mudstoneViewController.m */,
+			);
+			name = carbonateMudstone;
+			sourceTree = "<group>";
+		};
+		847591C3193A2BC800814456 /* wackestone */ = {
+			isa = PBXGroup;
+			children = (
+				847591C0193A2BC100814456 /* wackestoneViewController.h */,
+				847591C1193A2BC100814456 /* wackestoneViewController.m */,
+			);
+			name = wackestone;
+			sourceTree = "<group>";
+		};
+		847591C7193A2CDD00814456 /* boundstone */ = {
+			isa = PBXGroup;
+			children = (
+				847591C4193A2CD200814456 /* boundstoneViewController.h */,
+				847591C5193A2CD200814456 /* boundstoneViewController.m */,
+			);
+			name = boundstone;
+			sourceTree = "<group>";
+		};
+		847591CB193A38B700814456 /* Lithology */ = {
+			isa = PBXGroup;
+			children = (
+				847591C8193A38AB00814456 /* LithologyViewController.h */,
+				847591C9193A38AB00814456 /* LithologyViewController.m */,
+			);
+			name = Lithology;
+			sourceTree = "<group>";
+		};
+		847591CF193A396400814456 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				847591CC193A395800814456 /* DataViewController.h */,
+				847591CD193A395800814456 /* DataViewController.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		84AE7BE6193A0CA70036CEF3 /* tiporoca */ = {
+			isa = PBXGroup;
+			children = (
+				84AE7BE3193A0C900036CEF3 /* tiporocaViewController.h */,
+				84AE7BE4193A0C900036CEF3 /* tiporocaViewController.m */,
+			);
+			name = tiporoca;
+			sourceTree = "<group>";
+		};
+		84AE7BEA193A0DE20036CEF3 /* infoterrigenous */ = {
+			isa = PBXGroup;
+			children = (
+				84AE7BE7193A0D900036CEF3 /* infoterrigenousViewController.h */,
+				84AE7BE8193A0D900036CEF3 /* infoterrigenousViewController.m */,
+			);
+			name = infoterrigenous;
+			sourceTree = "<group>";
+		};
+		84AE7BEE193A0FE10036CEF3 /* NameRockTerrigenous */ = {
+			isa = PBXGroup;
+			children = (
+				84759197193A131700814456 /* namerockViewController.h */,
+				84759198193A131700814456 /* namerockViewController.m */,
+			);
+			name = NameRockTerrigenous;
+			sourceTree = "<group>";
+		};
+		84AE7BF2193A10350036CEF3 /* datos carbonate */ = {
+			isa = PBXGroup;
+			children = (
+				8475919A193A19B000814456 /* datacarnonateViewController.h */,
+				8475919B193A19B000814456 /* datacarnonateViewController.m */,
+			);
+			name = "datos carbonate";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,8 +488,25 @@
 				6463AA5D1937FD35002D2314 /* Default.png in Resources */,
 				6463AA5F1937FD35002D2314 /* Default@2x.png in Resources */,
 				6463AA611937FD35002D2314 /* Default-568h@2x.png in Resources */,
+				84454306193F6BED00312320 /* degradenegro.jpg in Resources */,
+				84A1B0A1193F980D00F1CEF7 /* SRCAPp.sql in Resources */,
+				8450795D1938E1CD0006B873 /* CRYSTALLINE.png in Resources */,
+				84454304193F68EB00312320 /* graygradient.png in Resources */,
+				845079631938F08B0006B873 /* Packstone.png in Resources */,
 				6463AA641937FD35002D2314 /* MainStoryboard_iPhone.storyboard in Resources */,
 				6463AA671937FD35002D2314 /* MainStoryboard_iPad.storyboard in Resources */,
+				6463AA721937FD75002D2314 /* imaagen presentacion.PNG in Resources */,
+				6463AA741938027D002D2314 /* inicio.png in Resources */,
+				8450796A193901DD0006B873 /* Mudstone.png in Resources */,
+				6463AA7619380440002D2314 /* fondoGris.jpg in Resources */,
+				6463AA78193807C9002D2314 /* redblackgradient.jpg in Resources */,
+				84454308193F6D0E00312320 /* gris.jpg in Resources */,
+				845079611938ED660006B873 /* Grainstone.png in Resources */,
+				8450795B1938D11D0006B873 /* INICIO-3.png in Resources */,
+				6463AA7A193819C6002D2314 /* linear_bb.jpg in Resources */,
+				845079591938C4990006B873 /* Iniciofinal.png in Resources */,
+				8450795F1938E44D0006B873 /* Boundstone.png in Resources */,
+				845079651938F3130006B873 /* Wackestone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,9 +517,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847591C2193A2BC100814456 /* wackestoneViewController.m in Sources */,
+				8410750019392AB6006B195A /* WellsViewController.m in Sources */,
+				847591B6193A264000814456 /* packstoneViewController.m in Sources */,
+				847591C6193A2CD200814456 /* boundstoneViewController.m in Sources */,
+				841074FB193928F6006B195A /* PrincipalViewController.m in Sources */,
+				84AE7BE9193A0D900036CEF3 /* infoterrigenousViewController.m in Sources */,
+				847591BA193A273900814456 /* carbonatelessandmoreViewController.m in Sources */,
+				847591A3193A1C3E00814456 /* crystallinecarbonateViewController.m in Sources */,
+				841074EB1939225C006B195A /* LoginViewController.m in Sources */,
+				847591CE193A395800814456 /* DataViewController.m in Sources */,
+				847591BE193A29BF00814456 /* mudstoneViewController.m in Sources */,
+				84759199193A131700814456 /* namerockViewController.m in Sources */,
+				8475919C193A19B000814456 /* datacarnonateViewController.m in Sources */,
+				847591AB193A21C100814456 /* carbonatesupportedViewController.m in Sources */,
+				84AE7BE5193A0C900036CEF3 /* tiporocaViewController.m in Sources */,
+				847591CA193A38AB00814456 /* LithologyViewController.m in Sources */,
 				6463AA571937FD35002D2314 /* main.m in Sources */,
 				6463AA5B1937FD35002D2314 /* AppDelegate.m in Sources */,
+				847591AE193A23D800814456 /* carbonategrainandmudViewController.m in Sources */,
 				6463AA6A1937FD35002D2314 /* ViewController.m in Sources */,
+				847591A6193A1F5700814456 /* carbonatedepositionViewController.m in Sources */,
+				847591B2193A250400814456 /* grainstoneViewController.m in Sources */,
+				8410750419392C6F006B195A /* InfowellViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +637,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SRC App/SRC App-Prefix.pch";
 				INFOPLIST_FILE = "SRC App/SRC App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -288,6 +649,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SRC App/SRC App-Prefix.pch";
 				INFOPLIST_FILE = "SRC App/SRC App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -312,6 +674,7 @@
 				6463AA6F1937FD35002D2314 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
