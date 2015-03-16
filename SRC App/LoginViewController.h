@@ -8,12 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LoginViewController : UIViewController {
- IBOutlet UITextField *userName;
-IBOutlet UITextField *password;
+@interface LoginViewController : UIViewController
 
-}
+@property (strong, nonatomic) UITextField *campoActivo;
+@property (strong, nonatomic) IBOutlet UITextField *userName;
+@property (strong, nonatomic) IBOutlet UITextField *password;
+
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+
+
+    
+    
+
+
 - (IBAction)signIn:(id)sender;
 - (IBAction)newUser:(id)sender;
+
+
 
 @end

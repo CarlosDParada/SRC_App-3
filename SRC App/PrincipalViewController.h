@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PrincipalViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIButton *project1Button;
-@property (weak, nonatomic) IBOutlet UIButton *project2Button;
-@property (weak, nonatomic) IBOutlet UIButton *project3Button;
+@interface PrincipalViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 
+
+
+
+{
+    IBOutlet UITableView *tableProjects;
+}
+@property(nonatomic,assign) NSMutableData *datosRecibidos;
 
 @end

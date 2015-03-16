@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7E36A949-B7F4-433B-A9B8-2498B59D6A6C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SRC App</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>386A05A7F2068A2D29AB7E545DFA222C8A384BA9</key>
+		<string>https://github.com/carlitos0089/SRC_App-3.git</string>
+		<key>BE551675-1D47-4592-9B76-FD8A624CFEC9</key>
+		<string>https://github.com/carlitos0089/SRC_App-3.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SRC App.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>386A05A7F2068A2D29AB7E545DFA222C8A384BA9</key>
+		<string>../..</string>
+		<key>BE551675-1D47-4592-9B76-FD8A624CFEC9</key>
+		<string>../../../SRC App-3</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/carlitos0089/SRC_App-3.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>386A05A7F2068A2D29AB7E545DFA222C8A384BA9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BE551675-1D47-4592-9B76-FD8A624CFEC9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SRC App-3</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>386A05A7F2068A2D29AB7E545DFA222C8A384BA9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SRC%20App-3</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -26,7 +26,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    //Esconder Teclado
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(ocultaTeclado:)];
+    [tapGesture setNumberOfTouchesRequired:1];
+    [[self view] addGestureRecognizer:tapGesture];
+    //fin
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,16 +39,16 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+//Accion Ocultar TEclado
+-(void)ocultaTeclado:(UITapGestureRecognizer *)sender{
+    //Aquí hay que declarar todos los UITextField de nuestra escena
+    [porosityTextField resignFirstResponder];
+    [descriptioncrystallineTextView resignFirstResponder];
+    [depthTextField resignFirstResponder];
+        [notescrystallineTextField resignFirstResponder];
+    
 }
-*/
+//fin
 
 - (IBAction)cancel:(id)sender {
 }

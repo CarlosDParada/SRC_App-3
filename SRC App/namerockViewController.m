@@ -7,12 +7,16 @@
 //
 
 #import "namerockViewController.h"
+#import "infoterrigenousViewController.h"
+
 
 @interface namerockViewController ()
 
 @end
 
 @implementation namerockViewController
+
+@synthesize name_rock_terrigenous,namerockTextView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,7 +30,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+ 
+     [namerockTextView setText:(name_rock_terrigenous)];
+    
 }
 
 - (void)didReceiveMemoryWarning

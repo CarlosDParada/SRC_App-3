@@ -1,49 +1,38 @@
 //
-//  LoginViewController.m
+//  NewUser.m
 //  SRC App
 //
-//  Created by admin on 5/30/14.
+//  Created by Carlos Parada on 11/27/14.
 //  Copyright (c) 2014 Sinergia. All rights reserved.
 //
 
-#import "LoginViewController.h"
-#import "DatosGlobales.h"
+#import "NewUser.h"
 
-
-@interface LoginViewController ()
+@interface NewUser ()
 
 @end
 
-@implementation LoginViewController
+@implementation NewUser
 @synthesize scrollView;
 @synthesize campoActivo;
-
-@synthesize userName;
+@synthesize name;
+@synthesize last_name;
+@synthesize user_name;
 @synthesize password;
+@synthesize email;
+@synthesize sqlLine;
 
 
-
-//
-//- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-//{
-//    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-//    if (self) {
-//        // Custom initialization
-//    }
-//    return self;
-//}
-
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     
-/////Esconder Teclado
-    
+  //Esconder Teclado
+
     //Setup del UIScrollView
     [[self scrollView] setContentSize:[[self view] frame].size];
     
     //Notificaciones del teclado
-    
+
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(apareceElTeclado:)
                                                  name:UIKeyboardWillShowNotification
@@ -58,26 +47,22 @@
     [tapRecognizer setCancelsTouchesInView:NO];
     [[self scrollView] addGestureRecognizer:tapRecognizer];
     
-/////fin
+    //fin
+    
+    
 
-    
-    // Traer el Dato del Servidor
-    
-   // NSString *strURL2 = [NSString stringWithFormat:@"http: //%@/get_all_user.php",[DatosGlobales datosGlobalesCompartidos].direccionServidor];
-    
-    //
-    
-    
-    
 }
 
-//Acomodar vista
--(void) viewDidUnload
+//Acomodar Vista
+
+- (void)viewDidUnload
 {
-    [self setUserName:nil];
+    [self setName:nil];
+    [self setLast_name:nil];
+    [self setEmail:nil];
+    [self setUser_name:nil];
     [self setPassword:nil];
     [self setScrollView:nil];
-    
     [[NSNotificationCenter defaultCenter] removeObserver:self
                                                     name:UIKeyboardWillShowNotification
                                                   object:nil];
@@ -85,33 +70,30 @@
                                                     name:UIKeyboardDidHideNotification
                                                   object:nil];
     [super viewDidUnload];
-    
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"INICIO-3.png"]];
-    
+    // Release any retained subviews of the main view.
 }
-
 //
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 //
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-
-
 //Accion Ocultar TEclado
 -(void)ocultaTeclado:(UITapGestureRecognizer *)sender{
     //Aquí hay que declarar todos los UITextField de nuestra escena
-    [userName resignFirstResponder];
+    [name resignFirstResponder];
+    [user_name resignFirstResponder];
+    [last_name resignFirstResponder];
+    [email resignFirstResponder];
     [password resignFirstResponder];
+    
 }
 //fin
-
 
 #pragma mark - Métodos de UITextFieldDelegate
 - (void)textFieldDidBeginEditing:(UITextField *)textField
@@ -155,53 +137,33 @@
 }
 ///
 
-
-- (IBAction)signIn:(id)sender {
-    /*
-/////////////// Validar / Inicio de  Usuario
+- (IBAction)newUser:(id)sender {
     
     //Creo una string que contendrá la url del PHP, que recibirá los TextFields
-    NSString *strURL = [NSString stringWithFormat:@"http://basededatosremotas.hol.es/dbdemon/login.php?userName=%@&password=%@", userName.text, password.text];
-    NSLog(@"%@",strURL);
+    NSString *strURL = [NSString stringWithFormat:@"http://basededatosremotas.hol.es/dbdemon/save_user.php?name=%@&lastName=%@&userName=%@&email=%@&password=%@",name.text,last_name.text,user_name.text,email.text,password.text];
+
     
-    //Para ejecutar PHP
+    [sqlLine setText:(strURL)];
+    
+    // En dataURL guarda lo que recibe del php
+    
+    // to execute php code
     NSData *dataURL = [NSData dataWithContentsOfURL:[NSURL URLWithString:strURL]];
-    NSLog(@"%@",dataURL);
     
-    //Para recibir el valor que retorna
     NSString *strResult = [[NSString alloc] initWithData:dataURL encoding:NSUTF8StringEncoding];
     NSLog(@"%@", strResult); //debug per veure que retorna
     
     //Sólo se muestra si retorna el text OK del php
-    if ([strResult isEqualToString: @"Login OK"]){
-        UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"Login"
-                                                          message:@"Login correcto."
+    if ([strResult isEqualToString: @"OK"]){
+        UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"UserName"
+                                                          message:@"UsernName correcto."
                                                          delegate:self
                                                 cancelButtonTitle:@"Acceptar"
                                                 otherButtonTitles: nil];
         [message show];
         
     }
-    
-    ////////// FIn
-*/
-    
 }
 
-- (IBAction)newUser:(id)sender {
-    /* //////////////////////////////////////////////////////////// Llamado para guardar
-     
-     - (IBAction)buttonGuardar:(id)sender {
-     
-     NSString *strURL = [NSString stringWithFormat:@"http://localhost/geotips/insertaUsuarios.php?nombre=%@&apellidos=%@&usuario=%@&contrasenya=%@",textFieldNombre.text,textFieldApellidos.text,textFieldUsuario.text,textFieldContrasenya.text];
-     
-     
-     
-     
-     
-     //En dataURL guarda lo que recibe del php
-     NSData *dataURL = [NSData dataWithContentsOfURL:[NSURL URLWithString:strURL]];
-     }
-     */
-}
+///
 @end

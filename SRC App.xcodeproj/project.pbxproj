@@ -7,16 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6463AA4B1937FD35002D2314 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6463AA4A1937FD35002D2314 /* UIKit.framework */; };
-		6463AA4D1937FD35002D2314 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6463AA4C1937FD35002D2314 /* Foundation.framework */; };
-		6463AA4F1937FD35002D2314 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6463AA4E1937FD35002D2314 /* CoreGraphics.framework */; };
 		6463AA551937FD35002D2314 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6463AA531937FD35002D2314 /* InfoPlist.strings */; };
 		6463AA571937FD35002D2314 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6463AA561937FD35002D2314 /* main.m */; };
 		6463AA5B1937FD35002D2314 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6463AA5A1937FD35002D2314 /* AppDelegate.m */; };
 		6463AA5D1937FD35002D2314 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6463AA5C1937FD35002D2314 /* Default.png */; };
 		6463AA5F1937FD35002D2314 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6463AA5E1937FD35002D2314 /* Default@2x.png */; };
 		6463AA611937FD35002D2314 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6463AA601937FD35002D2314 /* Default-568h@2x.png */; };
-		6463AA641937FD35002D2314 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6463AA621937FD35002D2314 /* MainStoryboard_iPhone.storyboard */; };
 		6463AA671937FD35002D2314 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6463AA651937FD35002D2314 /* MainStoryboard_iPad.storyboard */; };
 		6463AA6A1937FD35002D2314 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6463AA691937FD35002D2314 /* ViewController.m */; };
 		6463AA721937FD75002D2314 /* imaagen presentacion.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6463AA711937FD75002D2314 /* imaagen presentacion.PNG */; };
@@ -26,7 +22,6 @@
 		6463AA7A193819C6002D2314 /* linear_bb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6463AA79193819C6002D2314 /* linear_bb.jpg */; };
 		841074EB1939225C006B195A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841074EA1939225C006B195A /* LoginViewController.m */; };
 		841074FB193928F6006B195A /* PrincipalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841074FA193928F6006B195A /* PrincipalViewController.m */; };
-		8410750019392AB6006B195A /* WellsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841074FF19392AB6006B195A /* WellsViewController.m */; };
 		8410750419392C6F006B195A /* InfowellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8410750319392C6F006B195A /* InfowellViewController.m */; };
 		84454304193F68EB00312320 /* graygradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 84454303193F68EB00312320 /* graygradient.png */; };
 		84454306193F6BED00312320 /* degradenegro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84454305193F6BED00312320 /* degradenegro.jpg */; };
@@ -53,11 +48,34 @@
 		847591C6193A2CD200814456 /* boundstoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847591C5193A2CD200814456 /* boundstoneViewController.m */; };
 		847591CA193A38AB00814456 /* LithologyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847591C9193A38AB00814456 /* LithologyViewController.m */; };
 		847591CE193A395800814456 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847591CD193A395800814456 /* DataViewController.m */; };
-		847591D1193A3F5B00814456 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 847591D0193A3F5B00814456 /* libsqlite3.dylib */; };
 		84A1B0A1193F980D00F1CEF7 /* SRCAPp.sql in Resources */ = {isa = PBXBuildFile; fileRef = 84A1B0A0193F980D00F1CEF7 /* SRCAPp.sql */; };
 		84AE7BE5193A0C900036CEF3 /* tiporocaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE7BE4193A0C900036CEF3 /* tiporocaViewController.m */; };
 		84AE7BE9193A0D900036CEF3 /* infoterrigenousViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE7BE8193A0D900036CEF3 /* infoterrigenousViewController.m */; };
+		D9086C881A82EDEB00768C64 /* WellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9086C871A82EDEB00768C64 /* WellViewController.m */; };
+		D9086C8B1A82EF2900768C64 /* DetailWellsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9086C8A1A82EF2900768C64 /* DetailWellsViewController.m */; };
+		D9086C8E1A82EF4800768C64 /* Well.m in Sources */ = {isa = PBXBuildFile; fileRef = D9086C8D1A82EF4800768C64 /* Well.m */; };
+		D9086C8F1A832D3400768C64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6463AA4A1937FD35002D2314 /* UIKit.framework */; };
+		D95409191A14A119002104E1 /* DatosGlobales.m in Sources */ = {isa = PBXBuildFile; fileRef = D95409181A14A119002104E1 /* DatosGlobales.m */; };
+		D9906A6B1A931BDD001AED42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9906A6A1A931BDD001AED42 /* Images.xcassets */; };
+		D9AB539A1A872A9500106A8F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9AB53991A872A9500106A8F /* MainStoryboard_iPhone.storyboard */; };
+		D9AB9A851981A33C004046C3 /* NewProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9A841981A33C004046C3 /* NewProject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D9B24DAD1A79E586008E4EBB /* ProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B24DAC1A79E586008E4EBB /* ProjectViewController.m */; };
+		D9B24DB11A79F737008E4EBB /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B24DB01A79F737008E4EBB /* Project.m */; };
+		D9B24DB41A7A01FB008E4EBB /* DetailProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B24DB31A7A01FB008E4EBB /* DetailProjectsViewController.m */; };
+		D9BDA8411A26F3FD00A7AEB8 /* NewUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BDA8401A26F3FD00A7AEB8 /* NewUser.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9ADB24B1A1FA21B00DAA529 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6463AA471937FD35002D2314 /* SRC App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SRC App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,7 +91,6 @@
 		6463AA5C1937FD35002D2314 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6463AA5E1937FD35002D2314 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6463AA601937FD35002D2314 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		6463AA631937FD35002D2314 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		6463AA661937FD35002D2314 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		6463AA681937FD35002D2314 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6463AA691937FD35002D2314 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -86,8 +103,6 @@
 		841074EA1939225C006B195A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		841074F9193928F6006B195A /* PrincipalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincipalViewController.h; sourceTree = "<group>"; };
 		841074FA193928F6006B195A /* PrincipalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrincipalViewController.m; sourceTree = "<group>"; };
-		841074FE19392AB6006B195A /* WellsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WellsViewController.h; sourceTree = "<group>"; };
-		841074FF19392AB6006B195A /* WellsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WellsViewController.m; sourceTree = "<group>"; };
 		8410750219392C6F006B195A /* InfowellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfowellViewController.h; sourceTree = "<group>"; };
 		8410750319392C6F006B195A /* InfowellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfowellViewController.m; sourceTree = "<group>"; };
 		84454303193F68EB00312320 /* graygradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = graygradient.png; path = "SRC App/graygradient.png"; sourceTree = "<group>"; };
@@ -135,6 +150,27 @@
 		84AE7BE4193A0C900036CEF3 /* tiporocaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tiporocaViewController.m; sourceTree = "<group>"; };
 		84AE7BE7193A0D900036CEF3 /* infoterrigenousViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoterrigenousViewController.h; sourceTree = "<group>"; };
 		84AE7BE8193A0D900036CEF3 /* infoterrigenousViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoterrigenousViewController.m; sourceTree = "<group>"; };
+		D9086C861A82EDEB00768C64 /* WellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WellViewController.h; sourceTree = "<group>"; };
+		D9086C871A82EDEB00768C64 /* WellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WellViewController.m; sourceTree = "<group>"; };
+		D9086C891A82EF2900768C64 /* DetailWellsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailWellsViewController.h; sourceTree = "<group>"; };
+		D9086C8A1A82EF2900768C64 /* DetailWellsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailWellsViewController.m; sourceTree = "<group>"; };
+		D9086C8C1A82EF4800768C64 /* Well.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Well.h; sourceTree = "<group>"; };
+		D9086C8D1A82EF4800768C64 /* Well.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Well.m; sourceTree = "<group>"; };
+		D95409171A14A119002104E1 /* DatosGlobales.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatosGlobales.h; sourceTree = "<group>"; };
+		D95409181A14A119002104E1 /* DatosGlobales.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatosGlobales.m; sourceTree = "<group>"; };
+		D9906A6A1A931BDD001AED42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D9AB53991A872A9500106A8F /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
+		D9AB9A831981A33C004046C3 /* NewProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewProject.h; sourceTree = "<group>"; };
+		D9AB9A841981A33C004046C3 /* NewProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewProject.m; sourceTree = "<group>"; };
+		D9B24DAB1A79E586008E4EBB /* ProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectViewController.h; sourceTree = "<group>"; };
+		D9B24DAC1A79E586008E4EBB /* ProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectViewController.m; sourceTree = "<group>"; };
+		D9B24DAF1A79F737008E4EBB /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		D9B24DB01A79F737008E4EBB /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		D9B24DB21A7A01FB008E4EBB /* DetailProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailProjectsViewController.h; sourceTree = "<group>"; };
+		D9B24DB31A7A01FB008E4EBB /* DetailProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailProjectsViewController.m; sourceTree = "<group>"; };
+		D9B8559A1992959B00E09903 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D9BDA83F1A26F3FD00A7AEB8 /* NewUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewUser.h; sourceTree = "<group>"; };
+		D9BDA8401A26F3FD00A7AEB8 /* NewUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,10 +178,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847591D1193A3F5B00814456 /* libsqlite3.dylib in Frameworks */,
-				6463AA4B1937FD35002D2314 /* UIKit.framework in Frameworks */,
-				6463AA4D1937FD35002D2314 /* Foundation.framework in Frameworks */,
-				6463AA4F1937FD35002D2314 /* CoreGraphics.framework in Frameworks */,
+				D9086C8F1A832D3400768C64 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +206,7 @@
 		6463AA491937FD35002D2314 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D9B8559A1992959B00E09903 /* CoreData.framework */,
 				847591D0193A3F5B00814456 /* libsqlite3.dylib */,
 				6463AA4A1937FD35002D2314 /* UIKit.framework */,
 				6463AA4C1937FD35002D2314 /* Foundation.framework */,
@@ -184,6 +218,10 @@
 		6463AA501937FD35002D2314 /* SRC App */ = {
 			isa = PBXGroup;
 			children = (
+				D9086C851A82EDC600768C64 /* Well's */,
+				D9B24DAE1A79E592008E4EBB /* Project's */,
+				D9AB9A821981A2AB004046C3 /* NewProject */,
+				D94AB0C5197F0A060076BD57 /* NewUser */,
 				847591CF193A396400814456 /* Data */,
 				847591CB193A38B700814456 /* Lithology */,
 				847591C7193A2CDD00814456 /* boundstone */,
@@ -201,16 +239,18 @@
 				84AE7BEA193A0DE20036CEF3 /* infoterrigenous */,
 				84AE7BE6193A0CA70036CEF3 /* tiporoca */,
 				8410750519392CD9006B195A /* Infowell */,
-				8410750119392ACD006B195A /* wells */,
 				841074FD193929AB006B195A /* Login */,
 				841074FC1939298F006B195A /* Principal */,
 				6463AA591937FD35002D2314 /* AppDelegate.h */,
 				6463AA5A1937FD35002D2314 /* AppDelegate.m */,
-				6463AA621937FD35002D2314 /* MainStoryboard_iPhone.storyboard */,
+				D9AB53991A872A9500106A8F /* MainStoryboard_iPhone.storyboard */,
 				6463AA651937FD35002D2314 /* MainStoryboard_iPad.storyboard */,
 				6463AA681937FD35002D2314 /* ViewController.h */,
 				6463AA691937FD35002D2314 /* ViewController.m */,
 				6463AA511937FD35002D2314 /* Supporting Files */,
+				D95409171A14A119002104E1 /* DatosGlobales.h */,
+				D95409181A14A119002104E1 /* DatosGlobales.m */,
+				D9906A6A1A931BDD001AED42 /* Images.xcassets */,
 			);
 			path = "SRC App";
 			sourceTree = "<group>";
@@ -269,15 +309,6 @@
 				841074EA1939225C006B195A /* LoginViewController.m */,
 			);
 			name = Login;
-			sourceTree = "<group>";
-		};
-		8410750119392ACD006B195A /* wells */ = {
-			isa = PBXGroup;
-			children = (
-				841074FE19392AB6006B195A /* WellsViewController.h */,
-				841074FF19392AB6006B195A /* WellsViewController.m */,
-			);
-			name = wells;
 			sourceTree = "<group>";
 		};
 		8410750519392CD9006B195A /* Infowell */ = {
@@ -433,6 +464,50 @@
 			name = "datos carbonate";
 			sourceTree = "<group>";
 		};
+		D9086C851A82EDC600768C64 /* Well's */ = {
+			isa = PBXGroup;
+			children = (
+				D9086C861A82EDEB00768C64 /* WellViewController.h */,
+				D9086C871A82EDEB00768C64 /* WellViewController.m */,
+				D9086C891A82EF2900768C64 /* DetailWellsViewController.h */,
+				D9086C8A1A82EF2900768C64 /* DetailWellsViewController.m */,
+				D9086C8C1A82EF4800768C64 /* Well.h */,
+				D9086C8D1A82EF4800768C64 /* Well.m */,
+			);
+			name = "Well's";
+			sourceTree = "<group>";
+		};
+		D94AB0C5197F0A060076BD57 /* NewUser */ = {
+			isa = PBXGroup;
+			children = (
+				D9BDA83F1A26F3FD00A7AEB8 /* NewUser.h */,
+				D9BDA8401A26F3FD00A7AEB8 /* NewUser.m */,
+			);
+			name = NewUser;
+			sourceTree = "<group>";
+		};
+		D9AB9A821981A2AB004046C3 /* NewProject */ = {
+			isa = PBXGroup;
+			children = (
+				D9AB9A831981A33C004046C3 /* NewProject.h */,
+				D9AB9A841981A33C004046C3 /* NewProject.m */,
+			);
+			name = NewProject;
+			sourceTree = "<group>";
+		};
+		D9B24DAE1A79E592008E4EBB /* Project's */ = {
+			isa = PBXGroup;
+			children = (
+				D9B24DAB1A79E586008E4EBB /* ProjectViewController.h */,
+				D9B24DAC1A79E586008E4EBB /* ProjectViewController.m */,
+				D9B24DB21A7A01FB008E4EBB /* DetailProjectsViewController.h */,
+				D9B24DB31A7A01FB008E4EBB /* DetailProjectsViewController.m */,
+				D9B24DB01A79F737008E4EBB /* Project.m */,
+				D9B24DAF1A79F737008E4EBB /* Project.h */,
+			);
+			name = "Project's";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -443,6 +518,7 @@
 				6463AA431937FD35002D2314 /* Sources */,
 				6463AA441937FD35002D2314 /* Frameworks */,
 				6463AA451937FD35002D2314 /* Resources */,
+				D9ADB24B1A1FA21B00DAA529 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -489,11 +565,12 @@
 				6463AA5F1937FD35002D2314 /* Default@2x.png in Resources */,
 				6463AA611937FD35002D2314 /* Default-568h@2x.png in Resources */,
 				84454306193F6BED00312320 /* degradenegro.jpg in Resources */,
+				D9AB539A1A872A9500106A8F /* MainStoryboard_iPhone.storyboard in Resources */,
 				84A1B0A1193F980D00F1CEF7 /* SRCAPp.sql in Resources */,
 				8450795D1938E1CD0006B873 /* CRYSTALLINE.png in Resources */,
 				84454304193F68EB00312320 /* graygradient.png in Resources */,
+				D9906A6B1A931BDD001AED42 /* Images.xcassets in Resources */,
 				845079631938F08B0006B873 /* Packstone.png in Resources */,
-				6463AA641937FD35002D2314 /* MainStoryboard_iPhone.storyboard in Resources */,
 				6463AA671937FD35002D2314 /* MainStoryboard_iPad.storyboard in Resources */,
 				6463AA721937FD75002D2314 /* imaagen presentacion.PNG in Resources */,
 				6463AA741938027D002D2314 /* inicio.png in Resources */,
@@ -518,28 +595,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				847591C2193A2BC100814456 /* wackestoneViewController.m in Sources */,
-				8410750019392AB6006B195A /* WellsViewController.m in Sources */,
 				847591B6193A264000814456 /* packstoneViewController.m in Sources */,
 				847591C6193A2CD200814456 /* boundstoneViewController.m in Sources */,
 				841074FB193928F6006B195A /* PrincipalViewController.m in Sources */,
 				84AE7BE9193A0D900036CEF3 /* infoterrigenousViewController.m in Sources */,
 				847591BA193A273900814456 /* carbonatelessandmoreViewController.m in Sources */,
+				D9BDA8411A26F3FD00A7AEB8 /* NewUser.m in Sources */,
 				847591A3193A1C3E00814456 /* crystallinecarbonateViewController.m in Sources */,
 				841074EB1939225C006B195A /* LoginViewController.m in Sources */,
 				847591CE193A395800814456 /* DataViewController.m in Sources */,
 				847591BE193A29BF00814456 /* mudstoneViewController.m in Sources */,
 				84759199193A131700814456 /* namerockViewController.m in Sources */,
+				D9AB9A851981A33C004046C3 /* NewProject.m in Sources */,
 				8475919C193A19B000814456 /* datacarnonateViewController.m in Sources */,
 				847591AB193A21C100814456 /* carbonatesupportedViewController.m in Sources */,
 				84AE7BE5193A0C900036CEF3 /* tiporocaViewController.m in Sources */,
 				847591CA193A38AB00814456 /* LithologyViewController.m in Sources */,
 				6463AA571937FD35002D2314 /* main.m in Sources */,
+				D9B24DB11A79F737008E4EBB /* Project.m in Sources */,
+				D9086C8B1A82EF2900768C64 /* DetailWellsViewController.m in Sources */,
+				D9086C8E1A82EF4800768C64 /* Well.m in Sources */,
 				6463AA5B1937FD35002D2314 /* AppDelegate.m in Sources */,
+				D9B24DB41A7A01FB008E4EBB /* DetailProjectsViewController.m in Sources */,
+				D9086C881A82EDEB00768C64 /* WellViewController.m in Sources */,
 				847591AE193A23D800814456 /* carbonategrainandmudViewController.m in Sources */,
 				6463AA6A1937FD35002D2314 /* ViewController.m in Sources */,
 				847591A6193A1F5700814456 /* carbonatedepositionViewController.m in Sources */,
 				847591B2193A250400814456 /* grainstoneViewController.m in Sources */,
 				8410750419392C6F006B195A /* InfowellViewController.m in Sources */,
+				D95409191A14A119002104E1 /* DatosGlobales.m in Sources */,
+				D9B24DAD1A79E586008E4EBB /* ProjectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,14 +637,6 @@
 				6463AA541937FD35002D2314 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6463AA621937FD35002D2314 /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6463AA631937FD35002D2314 /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		6463AA651937FD35002D2314 /* MainStoryboard_iPad.storyboard */ = {
@@ -634,11 +711,20 @@
 		6463AA6E1937FD35002D2314 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_X86_VECTOR_INSTRUCTIONS = avx2;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SRC App/SRC App-Prefix.pch";
 				INFOPLIST_FILE = "SRC App/SRC App-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64 armv7s";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "armv7 x86_64 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -646,11 +732,20 @@
 		6463AA6F1937FD35002D2314 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_X86_VECTOR_INSTRUCTIONS = avx2;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SRC App/SRC App-Prefix.pch";
 				INFOPLIST_FILE = "SRC App/SRC App-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+				"VALID_ARCHS[sdk=iphoneos*]" = "armv7 x86_64 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

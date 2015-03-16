@@ -10,17 +10,23 @@
 
 @interface infoterrigenousViewController : UIViewController
 
+
+@property (nonatomic, retain) IBOutlet UITextField *matrix;
+    
+@property (nonatomic, retain) IBOutlet UITextField *quartz;
+    
+@property (nonatomic, retain) IBOutlet UITextField *feldspar;
+    
+@property (nonatomic, retain) IBOutlet UITextField *lithic;
+
+@property (strong, nonatomic) IBOutlet UITextField *sqlLine;
+
+@property (weak, nonatomic) IBOutlet UITextField *namelabel;
+
 //Anadir ScrollView a el .h 
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 
 
-  @property (strong, nonatomic)  IBOutlet UITextField *matrix;
- 
-  @property (strong, nonatomic)  IBOutlet UITextField *quartz;
-
-  @property (strong, nonatomic)  IBOutlet UITextField *feldspar;
-    
-  @property (strong, nonatomic)  IBOutlet UITextField *lithic;
 
 - (IBAction)classification:(id)sender;
 - (IBAction)cancel:(id)sender;

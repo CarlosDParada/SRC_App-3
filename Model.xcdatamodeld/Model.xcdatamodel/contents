@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Data" syncable="YES">
+        <attribute name="depth" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="feldspar" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_data" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_rock" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_well" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="lithic" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="matrix" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="porosity" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="quartz" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <relationship name="data_rock" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Rock" inverseName="rock_data" inverseEntity="Rock" syncable="YES"/>
+        <relationship name="data_well" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Well" inverseName="well_data" inverseEntity="Well" syncable="YES"/>
+        <userInfo>
+            <entry key="primary" value="id_data"/>
+        </userInfo>
+    </entity>
+    <entity name="Project" syncable="YES">
+        <attribute name="id_project" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_user" attributeType="Transformable" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="ower" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="project" inverseEntity="User" syncable="YES"/>
+        <relationship name="project_well" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Well" inverseName="project_well" inverseEntity="Well" syncable="YES"/>
+        <relationship name="well_project" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Well" inverseName="well_project" inverseEntity="Well" syncable="YES"/>
+    </entity>
+    <entity name="Rock" syncable="YES">
+        <attribute name="descriptionRock" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_rock" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nameRock" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="rock" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Rock_TypeRock" inverseName="rock" inverseEntity="Rock_TypeRock" syncable="YES"/>
+        <relationship name="rock_data" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Data" inverseName="data_rock" inverseEntity="Data" syncable="YES"/>
+    </entity>
+    <entity name="Rock_TypeRock" syncable="YES">
+        <attribute name="id_rock" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_typeRock" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="rock" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Rock" inverseName="rock" inverseEntity="Rock" syncable="YES"/>
+        <relationship name="typeRock" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Type_Rock" inverseName="type" inverseEntity="Type_Rock" syncable="YES"/>
+    </entity>
+    <entity name="Type_Rock" syncable="YES">
+        <attribute name="id_typeRock" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="type" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Rock_TypeRock" inverseName="typeRock" inverseEntity="Rock_TypeRock" syncable="YES"/>
+    </entity>
+    <entity name="User" syncable="YES">
+        <attribute name="id_user" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="last_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="password" attributeType="String" syncable="YES"/>
+        <attribute name="user" optional="YES" attributeType="Transformable" indexed="YES" syncable="YES"/>
+        <relationship name="project" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Project" inverseName="ower" inverseEntity="Project" syncable="YES"/>
+    </entity>
+    <entity name="Well" syncable="YES">
+        <attribute name="field" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_country" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_project" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="id_well" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="x_location" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="y_location" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="project_well" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Project" inverseName="project_well" inverseEntity="Project" syncable="YES"/>
+        <relationship name="well_data" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Data" inverseName="data_well" inverseEntity="Data" syncable="YES"/>
+        <relationship name="well_project" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Project" inverseName="well_project" inverseEntity="Project" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Data" positionX="-65" positionY="-153" width="128" height="223"/>
+        <element name="Project" positionX="-90" positionY="-315" width="128" height="133"/>
+        <element name="Rock" positionX="106" positionY="-63" width="128" height="133"/>
+        <element name="User" positionX="-324" positionY="-243" width="128" height="133"/>
+        <element name="Well" positionX="-297" positionY="27" width="128" height="178"/>
+        <element name="Type_Rock" positionX="-99" positionY="-63" width="128" height="88"/>
+        <element name="Rock_TypeRock" positionX="-90" positionY="-54" width="128" height="103"/>
+    </elements>
+</model>

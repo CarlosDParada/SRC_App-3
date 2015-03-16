@@ -9,13 +9,19 @@
 #import <UIKit/UIKit.h>
 
 @interface InfowellViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *cancelButton;
-@property (weak, nonatomic) IBOutlet UITextView *countryTextView;
-@property (weak, nonatomic) IBOutlet UITextView *locationXTexView;
-@property (weak, nonatomic) IBOutlet UITextView *locationYTextView;
-@property (weak, nonatomic) IBOutlet UITextView *fieldTextView;
-@property (weak, nonatomic) IBOutlet UIButton *adddataButton;
-@property (weak, nonatomic) IBOutlet UIButton *dataButton;
-@property (weak, nonatomic) IBOutlet UIButton *lithologyButton;
+ @property (strong, nonatomic) IBOutlet UITextView *countryTV;
+   @property (strong, nonatomic) IBOutlet UITextView *locationXTV;
+  @property (strong, nonatomic)  IBOutlet UITextView *locationYTV;
+@property (strong, nonatomic)  IBOutlet UITextView *fieldTV;
+
+@property (strong, nonatomic) UITextField *campoActivo;
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *cancel;
+
+
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+- (IBAction)data:(id)sender;
+- (IBAction)lithology:(id)sender;
+- (IBAction)addData:(id)sender;
 
 @end

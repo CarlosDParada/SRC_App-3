@@ -19,4 +19,10 @@
 @property (weak, nonatomic) IBOutlet UIButton *saveButton;
 @property (weak, nonatomic) IBOutlet UIButton *finishButton;
 
+
+@property(weak, nonatomic) NSString * name_rock_terrigenous;
+
+
+//@property(weak, nonatomic) NSString * id_rock_terrigenous;
+
 @end

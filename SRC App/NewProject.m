@@ -1,18 +1,18 @@
 //
-//  InfowellViewController.m
+//  NewProject.m
 //  SRC App
 //
-//  Created by admin on 5/30/14.
+//  Created by Carlos Parada on 7/24/14.
 //  Copyright (c) 2014 Sinergia. All rights reserved.
 //
 
-#import "InfowellViewController.h"
+#import "NewProject.h"
 
-@interface InfowellViewController ()
+@interface NewProject ()
 
 @end
 
-@implementation InfowellViewController
+@implementation NewProject
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -46,4 +46,6 @@
 }
 */
 
+- (IBAction)createProject:(id)sender {
+}
 @end

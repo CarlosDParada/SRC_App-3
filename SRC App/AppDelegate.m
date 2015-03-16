@@ -5,50 +5,24 @@
 //  Created by InternerS3-02 on 29/05/14.
 //  Copyright (c) 2014 Sinergia. All rights reserved.
 //
-
 #import "AppDelegate.h"
+#import "CoreData/CoreData.h"
+
+
 
 @implementation AppDelegate
-    
+
+@synthesize managedObjectContext = _managedObjectContext;
+@synthesize managedObjectModel = _managedObjectModel;
+@synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
+
+@synthesize dataBaseName;
+@synthesize dataBasePath;
 
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
-    NSArray *paths =NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
-    NSString *documentsDirectory = [paths objectAtIndex:0];
-    
-    self.dataBasePath = [documentsDirectory stringByAppendingPathComponent:@"srcdb.sql"];
-   ;
-    [self cargarBaseDeDatos];
-    return YES;
 
-}
-    - (void) cargarBaseDeDatos {
-        
-        BOOL exito;
-        
-        NSFileManager *fileManager = [NSFileManager defaultManager];
-        NSError *error;
-        
-        NSArray *paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
-        NSString *documentsDirectory = [paths objectAtIndex:0];
-        NSString *writableDBPath = [documentsDirectory stringByAppendingPathComponent:@"srcdb.sql"];
-        
-        exito = [fileManager fileExistsAtPath:writableDBPath];
-        
-        if (exito) return;
-        
-        NSString *defaultDBPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"srcdb.sql"];
-        
-        exito = [fileManager copyItemAtPath:defaultDBPath toPath:writableDBPath error:&error];
-        if (!exito){
-            NSLog (@"%@", [error localizedDescription]);
-            
-        }
-    
-}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -76,4 +50,12 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-@end
+
+
+#pragma mark - Application's Documents directory
+
+// Returns the URL to the application's Documents directory.
+
+- (NSURL *)applicationDocumentsDirectory{
+    return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+}@end
