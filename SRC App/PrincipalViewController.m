@@ -171,7 +171,7 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-    NSLog(@"Numero de entradas: %d", objecto.count);
+    NSLog(@"Numero de entradas: %lu", (unsigned long)objecto.count);
     
     int numCount = [objecto count];
     
